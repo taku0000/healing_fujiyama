@@ -68,7 +68,7 @@ header {
 }
 
 /* menu-iconのCSS普段は隠蔽 */
-.menu-icon {
+.menu-icon{
   color: white;
   float: right;
   font-size: 25px;
@@ -81,6 +81,7 @@ header {
 
 .top-wrapper {
   padding: 400px 0 100px 0;
+  /* background-image: url(https://publicdomainq.net/images/201903/18s/publicdomainq-0032534fdx.jpg); */
   background-image: url('publicdomainq-0032534fdxrdk.jpg');
   background-size: cover;
   color: #444444;
@@ -95,7 +96,6 @@ header {
 }
 .title-masseage {
 margin-left:10%;
-/* padding:1px 0; */
 }
 /* ここまでトップ */
 
