@@ -21,6 +21,10 @@
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
+  .top-wrapper {
+  background-image: url(https://moon.publicdomainq.net/201903/18o/publicdomainq-0032534fdxrdk.jpg);
+}
+  
   .lesson {
     width: 100%;
   }
