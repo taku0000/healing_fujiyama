@@ -68,11 +68,7 @@ header {
 }
 
 /* menu-iconのCSS普段は隠蔽 */
-<<<<<<< HEAD
-.menu-icon {
-=======
 .menu-icon{
->>>>>>> origin/master
   color: white;
   float: right;
   font-size: 25px;
@@ -86,11 +82,7 @@ header {
 .top-wrapper {
   padding: 400px 0 100px 0;
   /* background-image: url(https://publicdomainq.net/images/201903/18s/publicdomainq-0032534fdx.jpg); */
-<<<<<<< HEAD
   background-image: url('img/publicdomainq-0032534fdxrdkfoajejojoai.jpg');
-=======
-  background-image: url('publicdomainq-0032534fdxrdk.jpg');
->>>>>>> origin/master
   background-size: cover;
   color: #444444;
   text-align: center;
