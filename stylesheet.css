@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ a {
 .heading{
   text-align:center;
 }
-/* ここからヘッダー部分 */
+ここからヘッダー部分
 header {
   height: 65px;
   width: 100%;
@@ -65,16 +65,16 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
-}
+} */
 
 /* menu-iconのCSS普段は隠蔽 */
-.menu-icon{
+/* .menu-icon{
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
   display:none;
-}
+} */
 /* ここまでヘッダー */
 
 /* トップ部分 */
@@ -202,7 +202,7 @@ margin-left:10%;
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
+  
   padding-bottom: 80px;
   text-align: center;
 }
@@ -220,7 +220,7 @@ margin-left:10%;
   box-shadow: none;
 }
 
-footer p {
+/* footer p {
   color: #b3aeb5;
   font-size: 12px;
   
@@ -229,4 +229,4 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-}
+} */

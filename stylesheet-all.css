@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.heading{
+  text-align:center;
+}
+/* ここからヘッダー部分 */
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.7);
+  position :fixed;
+  z-index: 10;
+  
+}
+
+.header-left h1{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  margin:0;
+  
+}
+
+.header-left {
+  float: left;
+  padding:20;
+  display: block;
+  line-height: 65px;
+  
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+  
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-top: 1px solid #eee;
+}
