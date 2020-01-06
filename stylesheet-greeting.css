@@ -1,0 +1,83 @@
+.greeting-wrapper{
+  padding-top:100px;
+  text-align:center;
+  padding-bottom:100px;
+  background-color: #f7f7f7;
+}
+.mr_icon{
+  margin-top:50px;
+  height:300px;
+  width:300px;
+  border-radius:150px;
+}
+
+/* 下のボタン部分 */
+.heading h3{
+  font-weight: normal;
+}
+.heading h2{
+  font-weight: normal;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+  padding:40px 0px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.hello {
+  background-color:#006633;
+  
+}
+
+.tel {
+  background-color: #FF9933;
+}
+
+.email {
+  background-color: #CC6699;
+}
+
+.btn {
+  width:200px;
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom:10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.message-wrapper {
+  
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+/* 下のボタン部分 */
