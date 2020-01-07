@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155073881-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-155073881-1');
+    </script>
+    <title>Healing_Fujiyama</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="healing fujiyama 株式会社Healing Fujiyama 不動産 投資 エネルギー 環境事業 ヒーリングフジヤマ ひーりんぐふじやま">
+    <meta name="google-site-verification" content="Po8gbdF86EF1vjpcfS9LsyqYfhJ7xCuRc8q4reYHF6w">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <a href="/"><h1>Healing Fujiyama</h1></a>
+        </div>
+        <i class="fa fa-bars menu-icon"></i><!-- レスポンシブデザイン時のアイコン(普段は隠蔽) -->
+        <div class="header-right">
+          <a href="projects">Projects</a>
+          <a href="greeting">Greeting </a>
+          <a href="#" class="login">contact</a>
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <div class="message-wrapper">
+  　  <div class="container">
+     　 <div class="heading">
+          <h2>人生っていやしが必要だね</h2>
+          <h3>~ NO HEALING NO LIFE ~</h3>
+        </div>
+        <div class="btn-wrapper">
+          <a href="#" class="btn hello">Hello World!!</a>
+          <a href="#" class="btn tel">tel</a>
+          <a href="#" class="btn email">e-mail</a>
+        </div>
+     </div>
+    </div>
+    <footer>
+      <div class="container">
+        <p>Changing the world_with energy.</p>
+      </div>
+    </footer>
+  </body>
+</html>
