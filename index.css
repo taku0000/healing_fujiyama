@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ a {
 .heading{
   text-align:center;
 }
-/* ここからヘッダー部分 */
+ここからヘッダー部分
 header {
   height: 65px;
   width: 100%;
@@ -65,17 +65,100 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
-}
+} */
 
-.menu-icon{
+/* menu-iconのCSS普段は隠蔽 */
+/* .menu-icon{
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
   display:none;
+} */
+/* ここまでヘッダー */
+
+/* トップ部分 */
+
+.top-wrapper {
+  padding: 400px 0 100px 0;
+  /* background-image: url(https://publicdomainq.net/images/201903/18s/publicdomainq-0032534fdx.jpg); */
+  background-image: url('img/publicdomainq-0032534fdxrdkfoajejojoai.jpg');
+  background-size: cover;
+  color: #444444;
+  text-align: center;
+}
+.title-wrapper{
+  width:60%;
+  background-color: rgba(255,255,255,0.7);
+
+  color:black;
+  text-align:left; 
+}
+.title-masseage {
+margin-left:10%;
+}
+/* ここまでトップ */
+
+.us-icon{
+  width:200px;
+  height:200px;
+  border-radius:200px;
 }
 
-/* ココからボタン部分 */
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+.icon-title{
+  position: absolute;
+  top: 45%;
+  width:100%;
+  text-align:center;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  border-radius:20px;
+  background-color:rgba(34, 49, 52, 0.7);
+  color: white;
+  width:180px;
+  margin:auto;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+/* ここからぼたん
 .btn-wrapper {
   text-align: center;
   margin: 20px 0;
@@ -137,8 +220,10 @@ header {
   top: 7px;
   box-shadow: none;
 }
+ここまでぼたん */
 
-/* ココからフッター */
+
+/* ここからフッター
 
 footer p {
   color: #b3aeb5;
@@ -149,5 +234,4 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  border-top: 1px solid #eee;
-}
+} */
