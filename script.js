@@ -1,1 +1,3 @@
-console.log('Hello!');
+function scrollToTop() {
+  scrollTo(0, 500);
+ }
